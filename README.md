@@ -1,27 +1,68 @@
-# ARCHE Pre-Seed Pitch Deck Site
+# ARCHE Pre-Seed Pitch Deck
 
-Static GitHub Pages version of the ARCHE Pre-Seed v3 pitch deck.
+Investor-facing pitch deck site for **ARCHE** and **CONTROL TOWER**.
 
-## Deploy on GitHub Pages
+## Overview
 
-1. Unzip this folder.
-2. Upload all files to the root of a GitHub repository.
-3. Go to **Settings → Pages**.
-4. Choose **Deploy from branch**.
-5. Select `main` and `/root`.
-6. Save.
+**ARCHE** builds behavioral infrastructure for AI systems.
 
-## Controls
+**CONTROL TOWER** is a mobile-first B2B SaaS control system for trust-based autonomy, designed to help teams prevent agentic operational loss before autonomous AI actions reach the business.
 
-- Right arrow / Space: next slide
-- Left arrow: previous slide
-- Home / End: first / last slide
-- Present button: fullscreen
+This repository hosts the static web version of the ARCHE pre-seed pitch deck.
 
-## Included
+## Core Thesis
 
-- `index.html`
-- `styles.css`
-- `script.js`
-- slide images in `assets/slides/`
-- PPTX and PDF in `downloads/`
+AI is moving from chatbots to autonomous agents.
+
+As agents begin acting across tools, workflows, and business systems, teams need visibility, approval, audit, escalation, and intervention before autonomous actions create operational loss.
+
+**CONTROL TOWER** is the trust checkpoint between autonomous agents and business actions.
+
+## Contents
+
+```text
+index.html        Static pitch deck webpage
+styles.css        Deck site styling
+script.js         Slide navigation / presentation behavior
+assets/           Slide images and visual assets
+downloads/        Pitch deck files, if included
+```
+
+## Deployment
+
+This site is designed to run on GitHub Pages.
+
+Recommended settings:
+
+```text
+Settings → Pages
+Source: Deploy from a branch
+Branch: main
+Folder: /root
+```
+
+Expected GitHub Pages URL format:
+
+```text
+https://archepersona.github.io/pitch-deck/
+```
+
+## Confidentiality
+
+This deck is investor-facing and may include business strategy, market positioning, funding information, and product roadmap details.
+
+Do not redistribute without permission.
+
+## Status
+
+Pre-seed deck.
+
+**CONTROL TOWER:** alpha-ready
+**Raise:** $500K pre-seed
+**Purpose:** move CONTROL TOWER from alpha-ready into beta/release, secure design partners, protect core IP, and build the foundation for scale.
+
+## Contact
+
+**ARCHEPERSONA**
+Website: https://archepersona.online
+
