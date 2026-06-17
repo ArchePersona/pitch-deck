@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="ARCHE Pre-Seed Pitch Deck — CONTROL TOWER, trust-based autonomy, and agentic operational loss." />
+  <title>ARCHE Pre-Seed Pitch Deck</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="mark">ARCHE</span>
+      <span class="sub">Pre-Seed Pitch Deck</span>
+    </div>
+    <nav class="actions" aria-label="Deck controls">
+      <a href="downloads/ARCHE_PreSeed_v3.pptx" download>Download PPTX</a>
+      <a href="downloads/ARCHE_PreSeed_v3.pdf" download>Download PDF</a>
+      <button id="presentBtn" type="button">Present</button>
+    </nav>
+  </header>
+
+  <main class="deck-shell">
+    <section class="viewer" aria-label="Slide viewer">
+      <button class="nav prev" id="prevBtn" type="button" aria-label="Previous slide">‹</button>
+      <figure class="slide-frame">
+        <img id="slideImg" src="assets/slides/slide-01.png" alt="Slide 1: Title" />
+      </figure>
+      <button class="nav next" id="nextBtn" type="button" aria-label="Next slide">›</button>
+    </section>
+
+    <section class="meta" aria-label="Slide information">
+      <div>
+        <p class="eyebrow">ARCHEPERSONA | Confidential Pre-Seed Deck</p>
+        <h1 id="slideTitle">Title</h1>
+      </div>
+      <div class="counter"><span id="currentSlide">01</span>/<span id="totalSlides">19</span></div>
+    </section>
+
+    <section class="filmstrip" id="filmstrip" aria-label="Slide thumbnails"></section>
+  </main>
+
+  <footer class="footer">
+    <span>Keyboard: ← / →, space, Home, End</span>
+  </footer>
+
+  <script>
+  window.ARCHE_SLIDES = [
+    {src:"assets/slides/slide-01.png", title:'Title'},
+    {src:"assets/slides/slide-02.png", title:'Problem'},
+    {src:"assets/slides/slide-03.png", title:'Why Now: Agents'},
+    {src:"assets/slides/slide-04.png", title:'Why Now: Risk'},
+    {src:"assets/slides/slide-05.png", title:'Solution'},
+    {src:"assets/slides/slide-06.png", title:'Product Workflow'},
+    {src:"assets/slides/slide-07.png", title:'Platform'},
+    {src:"assets/slides/slide-08.png", title:'Go-to-market'},
+    {src:"assets/slides/slide-09.png", title:'Market'},
+    {src:"assets/slides/slide-10.png", title:'Business Model'},
+    {src:"assets/slides/slide-11.png", title:'Competition'},
+    {src:"assets/slides/slide-12.png", title:'Traction / Proof'},
+    {src:"assets/slides/slide-13.png", title:'Founder / Team'},
+    {src:"assets/slides/slide-14.png", title:'Roadmap'},
+    {src:"assets/slides/slide-15.png", title:'Use of Funds'},
+    {src:"assets/slides/slide-16.png", title:'Close'},
+    {src:"assets/slides/slide-17.png", title:'Backup: Market Expansion'},
+    {src:"assets/slides/slide-18.png", title:'Backup: ARCHEngine'},
+    {src:"assets/slides/slide-19.png", title:'Backup: Risk Evidence'}
+  ];
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
